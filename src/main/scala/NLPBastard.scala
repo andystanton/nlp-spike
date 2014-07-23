@@ -16,7 +16,7 @@ object NLPBastard {
 
     val likeStatement = "I like turtles"
     val hateStatement = "I hate turtles"
-    
+
     val likeOutcome = d.getBestCategory(d.categorize(likeStatement))
     val hateOutcome = d.getBestCategory(d.categorize(hateStatement))
 
