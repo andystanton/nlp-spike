@@ -8,6 +8,5 @@
 
 ```
 git clone https://github.com/andystanton/nlp-spike.git && cd nlp-spike
-sbt compile
-sbt run
+sbt test
 ```
