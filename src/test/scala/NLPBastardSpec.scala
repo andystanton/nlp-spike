@@ -27,10 +27,9 @@ class NLPBastardSpec extends FunSpec with Matchers {
     }
 
     it("can load a model from a binary file") {
-      NLPBastard.writeBinFile(NLPBastard.learnTrainingFile)
+      NLPBastard.writeBinFile(NLPBastard.learnTrainingFile) // Create binary file
 
-      val model = NLPBastard.loadModelFromBinFile
-      implicit val categorizer = new DocumentCategorizerME(model)
+      implicit val categorizer = new DocumentCategorizerME(NLPBastard.loadModelFromBinFile)
 
       checkTestStatements
     }
