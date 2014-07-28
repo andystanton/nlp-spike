@@ -1,4 +1,8 @@
-# NLP Spike
+# Natural Language Processing Spike
+
+An investigation into using Apache OpenNLP for Sentiment Analysis based on a training file.
+
+The language used is Scala, the test framework is ScalaTest and the build tool of choice is sbt. 
 
 ## Requirements
 
@@ -10,3 +14,7 @@
 git clone https://github.com/andystanton/nlp-spike.git && cd nlp-spike
 sbt test
 ```
+
+## Links
+
+* [Apache OpenNLP](http://opennlp.apache.org/)
