@@ -1,6 +1,6 @@
-# Natural Language Processing Spike
+# NLP Spike [![Build Status](https://travis-ci.org/andystanton/nlp-spike.svg?branch=master)](https://travis-ci.org/andystanton/nlp-spike)
 
-An investigation into using Apache OpenNLP for Sentiment Analysis based on a training file.
+An investigation into using Apache OpenNLP for simple Sentiment Analysis based on a training file.
 
 The language used is Scala, the test framework is ScalaTest and the build tool of choice is sbt. 
 
