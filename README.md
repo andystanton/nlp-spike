@@ -1,4 +1,4 @@
-# NLP Spike [![Build Status](http://drone.cyniq.com/github.com/andystanton/nlp-spike/status.svg?branch=master)](http://drone.cyniq.com/github.com/andystanton/nlp-spike)
+# NLP Spike [![Build Status](http://drone.cyniq.com/api/badge/github.com/andystanton/nlp-spike/status.svg?branch=master)](http://drone.cyniq.com/github.com/andystanton/nlp-spike)
 
 An investigation into using Apache OpenNLP for simple Sentiment Analysis based on a training file.
 
